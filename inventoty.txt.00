@@ -1,0 +1,4 @@
+#ubuntu20targ1	ansible_host=ubuntu20targ1 ansible_ssh_pass=Pass.2023 ansible_ssh_user=mourad
+
+192.168.77.192	ansible_ssh_pass='Pass.2023' ansible_ssh_user=mourad
+

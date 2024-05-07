@@ -1,0 +1,1 @@
+ubuntu20targ1	ansible_user=mourad ansible_password='Pass.2023'

@@ -1,0 +1,7 @@
+---
+- name: print hostname infos 
+  hosts: all
+  tasks:
+    - name: display
+      debug:
+        msg: "The new hostname is {{ ansible_hostname }} and the OS is {{ ansible_version }}"

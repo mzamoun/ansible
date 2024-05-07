@@ -1,0 +1,7 @@
+---
+- hosts: all
+  tasks:
+    - name: Create a directory if it doesn't exist
+      file:
+        path: ~/tmp
+        state: directory

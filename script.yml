@@ -1,0 +1,11 @@
+---
+- hosts: all
+  tasks:
+    - name: Run script.sh using script module
+      script: ~/ansible/script.sh
+      register: ls_output
+
+    - debug:
+        var: ls_output.stdout_lines
+
+

@@ -1,0 +1,6 @@
+---
+- name: date module demo
+  hosts: all
+  tasks:
+    - name: test date
+      command: date

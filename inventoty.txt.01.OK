@@ -1,0 +1,1 @@
+192.168.1.65	ansible_pass='Pass.2023' ansible_user=mourad ansible_connection=local
